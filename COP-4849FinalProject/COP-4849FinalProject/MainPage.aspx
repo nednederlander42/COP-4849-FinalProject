@@ -30,7 +30,6 @@
         </h2>
     
     </div>
-    </form>
     <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         The Metric Rank analysis using ANOVA statistics was used to search for statistical significance among the 10 metrics and 3 datasets. The JMP Pro version 11 software (i.e., subset of the SAS statistical package) was used to perform both ANOVA and Tukey HSD pairwise comparisons. In addition, the statistics were used to test for significance among the GOIDs which exist in at least two proteins (i.e., there is at least one common GOID for the protein pair). In summary, ANOVA statistical analysis was used to validate the following hypothesis:</p>
@@ -42,5 +41,9 @@
             as variations in the results).
         </li>
 &nbsp;</ul>
-</body>
+        <p>
+            <asp:HyperLink ID="dataPageLink" runat="server" NavigateUrl="~/dataPage.aspx">Data Set Page</asp:HyperLink>
+        </p>
+    </form>
+    </body>
 </html>
