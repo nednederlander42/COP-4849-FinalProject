@@ -10,7 +10,9 @@
     <form id="form1" runat="server">
     <div>
     
-        <h1 style =" text-align:center">A Search for Protein Function Similarity using Protein Structure Alignment Quality Metrics</h1><br />
+        <h1 style =" text-align:center">A Search for Protein Function </h1>
+        <h1 style =" text-align:center">Similarity using Protein Structure</h1>
+        <h1 style =" text-align:center">&nbsp;Alignment Quality Metrics</h1><br />
         <p style =" text-align:center">By Stephen Bernard Johnson</p><br />
         <br />
         <br />
