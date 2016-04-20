@@ -29,7 +29,7 @@ namespace COP_4849FinalProject
         {
             Boolean status = true;
             MySqlConnection msqlConnection = null;
-            msqlConnection = new MySqlConnection("server=localhost;user id=root;Password=noonan79;database=teamproj;persist security info=True");
+            msqlConnection = new MySqlConnection("server=localhost;user id=root;Password=potato;database=teamproj;persist security info=True");
                 //define the command reference
             MySqlCommand msqlCommand = new MySqlCommand();
             //define the connection used by the command object
