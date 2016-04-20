@@ -17,6 +17,7 @@ namespace COP_4849FinalProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //if file does not exist do connect()
             if (connect())
             {
                 string display = "JSON Created successfully";
