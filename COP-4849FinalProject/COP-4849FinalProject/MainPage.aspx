@@ -39,6 +39,6 @@
             Homstrad150, and UC350 datasets (each database bias may be reflected
             as variations in the results).
         </li>
-&nbsp;</ul>
+    </ul>
 </body>
 </html>
