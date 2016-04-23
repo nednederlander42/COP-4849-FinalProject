@@ -1,3 +1,36 @@
 ﻿body {
     background-color:yellow;
 }
+
+.customTable { width: 100%; }
+
+.customTable td, 
+.customTable th { 
+  border: 2px solid #47ae32;
+  padding: 5px; 
+  }
+.customTable th { 
+  font: bold 18px/1.1em Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 4px black; 
+  letter-spacing: 0.1em; 
+  background-color: #47ae32; 
+  color:#98FB98; 
+  }
+.customTable td { 
+  font: normal 14px/1.5em Goudy, Georgia, serif;
+  color: #47ae32; 
+  }
+.customTable td a:link { 
+  color: #006400;
+  text-decoration: none; 
+  }
+.customTable td a:visited { 
+  color: #006400; 
+  }
+.customTable td a:hover { 
+  color: #FF4500;
+  text-decoration: underline; 
+  }
+.customTable td a:active { 
+  color: #FF0000; 
+  }
