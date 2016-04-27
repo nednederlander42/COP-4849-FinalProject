@@ -1,5 +1,5 @@
 ﻿body {
-    background-color:yellow;
+    background-color:orange;
 }
 
 .customTable { width: 100%; }
@@ -17,8 +17,8 @@
   color:#98FB98; 
   }
 .customTable td { 
-  font: normal 14px/1.5em Goudy, Georgia, serif;
-  color: #47ae32; 
+  font: normal 16px/1.5em Goudy, Georgia, serif;
+  color: #black; 
   }
 .customTable td a:link { 
   color: #006400;
