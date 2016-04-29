@@ -40,7 +40,7 @@
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:teamprojConnectionString %>" ProviderName="<%$ ConnectionStrings:teamprojConnectionString.ProviderName %>" SelectCommand="SELECT DataSetName, GOID, CM, ESM, MI, SS, RMSD, rRMSD, SI, TMSCORE, wRMSD, SO, SectionNumber FROM meanrankscoretable"></asp:SqlDataSource>
         <br />
-        <asp:GridView ID="ANOVAGridView" runat="server" DataSourceID="SqlDataSource2" AutoGenerateColumns="False" DataKeyNames="DataSetName">
+        <asp:GridView ID="ANOVAGridView" runat="server" DataSourceID="SqlDataSource2" AutoGenerateColumns="False" DataKeyNames="DataSetName" AllowPaging="True">
             <Columns>
                 <asp:BoundField DataField="DataSetName" HeaderText="DataSetName" ReadOnly="True" SortExpression="DataSetName" />
                 <asp:BoundField DataField="DF_Metric" HeaderText="DF_Metric" SortExpression="DF_Metric" />

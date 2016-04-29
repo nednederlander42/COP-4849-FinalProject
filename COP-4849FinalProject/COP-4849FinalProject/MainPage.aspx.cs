@@ -21,8 +21,6 @@ namespace COP_4849FinalProject
             //if file does not exist do connect()
             if (connect())
             {
-                string display = "JSON Created successfully";
-                ClientScript.RegisterStartupScript(this.GetType(), "Info", "alert('" + display + "');", true);
                 displayTable("Proteus300");
             }
             
